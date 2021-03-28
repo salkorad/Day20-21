@@ -1,0 +1,51 @@
+body{
+    background-color: white;
+}
+#keyboard {
+    position: fixed;  
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0;
+    background-color: black;
+}
+
+button {
+    color: white;
+    height: 45px;
+    width: 7%;
+    border-radius: 4px;
+    background: black;
+    color: #ffffff;
+    font-size: 1.05rem;
+    outline: 1px solid gray;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: top;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+
+}
+
+#back{
+    width: 20%;
+}
+#caps{
+    width: 20%;
+}
+#enter{
+    width: 20%;
+}
+#shift{
+    width: 20%;
+}
+#space{
+    width: 78%;
+    max-width: 1000px;
+}
+#ok{
+    width: 20%;
+}
